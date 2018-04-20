@@ -14,28 +14,29 @@ import android.widget.Spinner;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import jp.wasabeef.recyclerview.animators.BaseItemAnimator;
-import jp.wasabeef.recyclerview.animators.FadeInAnimator;
-import jp.wasabeef.recyclerview.animators.FadeInDownAnimator;
-import jp.wasabeef.recyclerview.animators.FadeInLeftAnimator;
-import jp.wasabeef.recyclerview.animators.FadeInRightAnimator;
-import jp.wasabeef.recyclerview.animators.FadeInUpAnimator;
-import jp.wasabeef.recyclerview.animators.FlipInBottomXAnimator;
-import jp.wasabeef.recyclerview.animators.FlipInLeftYAnimator;
-import jp.wasabeef.recyclerview.animators.FlipInRightYAnimator;
-import jp.wasabeef.recyclerview.animators.FlipInTopXAnimator;
-import jp.wasabeef.recyclerview.animators.LandingAnimator;
-import jp.wasabeef.recyclerview.animators.OvershootInLeftAnimator;
-import jp.wasabeef.recyclerview.animators.OvershootInRightAnimator;
-import jp.wasabeef.recyclerview.animators.ScaleInAnimator;
-import jp.wasabeef.recyclerview.animators.ScaleInBottomAnimator;
-import jp.wasabeef.recyclerview.animators.ScaleInLeftAnimator;
-import jp.wasabeef.recyclerview.animators.ScaleInRightAnimator;
-import jp.wasabeef.recyclerview.animators.ScaleInTopAnimator;
-import jp.wasabeef.recyclerview.animators.SlideInDownAnimator;
-import jp.wasabeef.recyclerview.animators.SlideInLeftAnimator;
-import jp.wasabeef.recyclerview.animators.SlideInRightAnimator;
-import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
+import jp.wasabeef.animators.BaseItemAnimator;
+import jp.wasabeef.animators.FadeInAnimator;
+import jp.wasabeef.animators.FadeInDownAnimator;
+import jp.wasabeef.animators.FadeInLeftAnimator;
+import jp.wasabeef.animators.FadeInRightAnimator;
+import jp.wasabeef.animators.FadeInUpAnimator;
+import jp.wasabeef.animators.FlipInBottomXAnimator;
+import jp.wasabeef.animators.FlipInLeftYAnimator;
+import jp.wasabeef.animators.FlipInRightYAnimator;
+import jp.wasabeef.animators.FlipInTopXAnimator;
+import jp.wasabeef.animators.LandingAnimator;
+import jp.wasabeef.animators.OvershootInLeftAnimator;
+import jp.wasabeef.animators.OvershootInRightAnimator;
+import jp.wasabeef.animators.ScaleInAnimator;
+import jp.wasabeef.animators.ScaleInBottomAnimator;
+import jp.wasabeef.animators.ScaleInLeftAnimator;
+import jp.wasabeef.animators.ScaleInRightAnimator;
+import jp.wasabeef.animators.ScaleInTopAnimator;
+import jp.wasabeef.animators.SlideInDownAnimator;
+import jp.wasabeef.animators.SlideInLeftAnimator;
+import jp.wasabeef.animators.SlideInRightAnimator;
+import jp.wasabeef.animators.SlideInUpAnimator;
+
 
 /**
  * Created by Wasabeef on 2015/01/03.

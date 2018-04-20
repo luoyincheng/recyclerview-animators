@@ -1,1 +1,1 @@
-include ':example', ':animators'
+include ':example'

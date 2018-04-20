@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion COMPILE_SDK_VERSION as int
-  buildToolsVersion BUILD_TOOLS_VERSION
+  compileSdkVersion 26
+  buildToolsVersion "26.0.2"
 
   defaultConfig {
-    minSdkVersion MIN_SDK_VERSION as int
-    targetSdkVersion TARGET_SDK_VERSION as int
-    versionCode "git rev-list origin/master --count".execute().text.toInteger()
+    minSdkVersion 16
+    targetSdkVersion 26
+    versionCode 55
     versionName VERSION_NAME
   }
 
@@ -51,7 +51,7 @@ def getKeyAliasPasswordProperty() {
 
 dependencies {
   //compile project(':animators')
-  implementation "com.android.support:appcompat-v7:${SUPPORT_PACKAGE_VERSION}"
-  implementation "com.android.support:recyclerview-v7:${SUPPORT_PACKAGE_VERSION}"
+  implementation "com.android.support:appcompat-v7:26.1.0"
+  implementation "com.android.support:recyclerview-v7:26.1.0"
   implementation 'com.squareup.picasso:picasso:2.5.2'
 }
